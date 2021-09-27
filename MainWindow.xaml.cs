@@ -17,9 +17,8 @@ namespace _2._1.AdivinaNumero
             num = random.Next(0, 100);
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void ButtonComprobar(object sender, RoutedEventArgs e)
         {
-            //Comprobar
             if (!textoEntrada.Text.Equals(""))
             {
                 if (num == Convert.ToInt32(textoEntrada.Text))
@@ -41,11 +40,10 @@ namespace _2._1.AdivinaNumero
             }
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void ButtonReiniciar(object sender, RoutedEventArgs e)
         {
-            //Reiniciar
             textoAviso.Text = "";
-            textoEntrada.Text = "";
+            textoEntrada.Clear();
             num = random.Next(0, 100);
         }
     }
