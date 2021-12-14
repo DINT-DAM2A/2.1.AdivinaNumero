@@ -1,0 +1,8 @@
+1. Desarrollar un sencillo juego en el que el usuario tratará de adivinar un número
+aleatorio generado por el programa. Se deberán seguir las siguientes indicaciones:
+• El número a adivinar será entre 0 y 100 (inclusive).
+• El botón Comprobar indicará al usuario si ha acertado el número, si se ha
+quedado corto o si se ha pasado.
+• El botón Reiniciar generará un nuevo número y limpiará los datos actuales
+de la aplicación.
+Nombre del proyecto: 2.1.AdivinaNumero
